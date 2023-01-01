@@ -1,2 +1,1 @@
-# sfg-pet-clinic
-sfg-pet-clinic
+Sofi version of sfg-pet-clinic project
