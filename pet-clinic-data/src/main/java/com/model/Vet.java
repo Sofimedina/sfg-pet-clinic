@@ -1,4 +1,4 @@
-package com.sfg.pet.clinic.model;
+package com.model;
 
 public class Vet extends Person{
     public Vet(String firstName, String lastName) {
