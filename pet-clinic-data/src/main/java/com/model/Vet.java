@@ -1,7 +1,17 @@
 package com.model;
 
 public class Vet extends Person{
-    public Vet(String firstName, String lastName) {
-        super(firstName, lastName);
+    private Long id;
+    public Vet(){
+    }
+
+    @Override
+    public Long getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(Long id) {
+        this.id = id;
     }
 }

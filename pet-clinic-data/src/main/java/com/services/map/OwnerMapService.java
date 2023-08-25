@@ -1,11 +1,11 @@
 package com.services.map;
 
 import com.model.Owner;
-import com.services.CrudService;
+import com.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerMapService extends AbstractMapService<Owner,Long> implements CrudService<Owner,Long> {
+public class OwnerMapService extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
         return super.findAll();
