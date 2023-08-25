@@ -1,6 +1,6 @@
-package com.services;
+package sofitapp.services;
 
-import com.model.Pet;
+import sofitapp.model.Pet;
 
 
 public interface PetService extends CrudService<Pet,Long> {

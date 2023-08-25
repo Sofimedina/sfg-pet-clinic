@@ -1,4 +1,4 @@
-package com.model;
+package sofitapp.model;
 
 public class Vet extends Person{
     private Long id;

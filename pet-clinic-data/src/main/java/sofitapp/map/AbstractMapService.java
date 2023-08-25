@@ -1,4 +1,4 @@
-package com.services.map;
+package sofitapp.map;
 
 import java.util.HashMap;
 import java.util.HashSet;
