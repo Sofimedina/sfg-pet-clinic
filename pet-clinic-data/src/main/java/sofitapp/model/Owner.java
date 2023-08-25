@@ -2,24 +2,12 @@ package sofitapp.model;
 
 public class Owner extends Person {
 
-    private Long id;
     private String address;
     private String city;
     private String telephone;
 
     public Owner() {
 
-    }
-
-
-    @Override
-    public Long getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getAddress() {
