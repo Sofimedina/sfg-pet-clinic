@@ -1,4 +1,4 @@
-package sofi.com.controllers;
+package sofitapp.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

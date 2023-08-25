@@ -1,11 +1,9 @@
-package sofi.com.bootstrap;
+package sofitapp.bootstrap;
 
-import com.model.Owner;
-import com.model.Vet;
-import com.services.OwnerService;
-import com.services.VetService;
-import com.services.map.OwnerMapService;
-import com.services.map.VetMapService;
+import sofitapp.model.Owner;
+import sofitapp.model.Vet;
+import sofitapp.services.OwnerService;
+import sofitapp.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -13,9 +11,9 @@ import org.springframework.stereotype.Component;
 public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
-    public DataLoader(){
-        this.ownerService =new OwnerMapService() ;
-        this.vetService = new VetMapService();
+    public DataLoader(OwnerService ownerService, VetService vetService){
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
     @Override
     public void run(String... args) throws Exception {

@@ -1,4 +1,4 @@
-package com.model;
+package sofitapp.model;
 
 public class Person extends BaseEntity{
     private String firstName;

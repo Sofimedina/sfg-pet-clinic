@@ -1,4 +1,4 @@
-package com.model;
+package sofitapp.model;
 
 import java.time.LocalDate;
 

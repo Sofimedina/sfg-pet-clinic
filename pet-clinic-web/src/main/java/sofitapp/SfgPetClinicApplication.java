@@ -1,9 +1,10 @@
-package sofi.com;
+package sofitapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+
+@SpringBootApplication()
 public class SfgPetClinicApplication {
 
 	public static void main(String[] args) {

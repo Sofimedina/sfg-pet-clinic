@@ -1,10 +1,12 @@
-package com.services.map;
+package sofitapp.map;
 
-import com.model.Vet;
-import com.services.VetService;
+import sofitapp.model.Vet;
+import sofitapp.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetMapService extends AbstractMapService<Vet,Long> implements VetService {
 
     @Override

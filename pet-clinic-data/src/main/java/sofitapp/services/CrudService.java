@@ -1,6 +1,4 @@
-package com.services;
-
-import com.model.Owner;
+package sofitapp.services;
 
 import java.util.Set;
 
