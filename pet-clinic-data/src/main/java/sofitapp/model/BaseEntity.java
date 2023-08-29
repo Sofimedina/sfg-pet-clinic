@@ -2,7 +2,7 @@ package sofitapp.model;
 
 import java.io.Serializable;
 
-public class BaseEntity implements Serializable {
+public class    BaseEntity implements Serializable {
     public Long getId() {
         return id;
     }

@@ -1,16 +1,16 @@
 package sofitapp.model;
 
 public class Owner extends Person {
-
+/*
     private String address;
     private String city;
-    private String telephone;
+    private String telephone;*/
 
     public Owner() {
 
     }
 
-    public String getAddress() {
+   /* public String getAddress() {
         return address;
     }
 
@@ -32,7 +32,7 @@ public class Owner extends Person {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
-    }
+    }*/
 
 
 }

@@ -3,7 +3,11 @@ package sofitapp.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import sofitapp.model.Owner;
 import sofitapp.services.OwnerService;
+
+import java.util.Set;
+import java.util.stream.Stream;
 
 @Controller
 public class OwnerController {
@@ -13,12 +17,14 @@ public class OwnerController {
         this.ownerService = ownerService;
     }
 
-    @RequestMapping({"/owner","owner/index"})
-    public String owner(Model model)
-    {
-        model.addAttribute("owner",ownerService);
+    @RequestMapping({"/owners","owners/index"})
+    public String listOwners(Model model)
 
-        return "owner/index";
+    {
+
+        model.addAttribute("owners",ownerService.findAll());
+
+        return "owners/index";
 
     }
 
